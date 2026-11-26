@@ -55,11 +55,11 @@ T("版本号", lambda: lib.sqlite3_libversion().decode())
 T("journal_mode=WAL", lambda: db.one("PRAGMA journal_mode=WAL"))
 T("FTS5 中文检索", lambda: (
     db.exec("CREATE VIRTUAL TABLE f5 USING fts5(body, tokenize='unicode61')"),
-    db.exec("INSERT INTO f5 VALUES('探路者智能体协作网络'), ('sqlite wal reset bug')"),
-    db.one("SELECT body FROM f5 WHERE f5 MATCH '\"探路者智能体协作网络\"'"))[2])
+    db.exec("INSERT INTO f5 VALUES('中文全文检索测试数据'), ('sqlite wal reset bug')"),
+    db.one("SELECT body FROM f5 WHERE f5 MATCH '\"中文全文检索测试数据\"'"))[2])
 T("FTS5 trigram", lambda: (
     db.exec("CREATE VIRTUAL TABLE f5t USING fts5(body, tokenize='trigram')"),
-    db.exec("INSERT INTO f5t VALUES('统信操作系统数据库')"),
+    db.exec("INSERT INTO f5t VALUES('操作系统数据库测试')"),
     db.one("SELECT count(*) FROM f5t WHERE f5t MATCH '操作系统'"))[2])
 T("FTS4", lambda: (
     db.exec("CREATE VIRTUAL TABLE f4 USING fts4(body)"),

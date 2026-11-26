@@ -8,7 +8,7 @@ walrestart-1.3... Ok
 walrestart-1.4... Ok
 walrestart-1.5... Ok
 SQLite 2024-08-13 09:16:08 c9c2ab54ba1f5f46360f1b4f35d849cd3f080e6fc2b6c60e91b16c63f69aalt1
-0 errors out of 7 tests on Young-notebook Linux 64-bit little-endian
+0 errors out of 7 tests on buildhost Linux 64-bit little-endian
 All memory allocations freed - no leaks
 Memory used:          now          0  max     274016  max-size      48000
 Allocation count:     now          0  max        210

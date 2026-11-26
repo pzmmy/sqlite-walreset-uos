@@ -1,7 +1,7 @@
 # 构建与验证记录
 
 生成时间: 2026-11-26T10:41:01+08:00
-构建主机: Young-notebook / Linux 6.18.58.1-microsoft-standard-WSL2 / x86_64
+构建主机: buildhost / Linux 6.18.58.1-microsoft-standard-WSL2 / x86_64
 gcc: gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
 make: GNU Make 4.3
 

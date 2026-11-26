@@ -3,7 +3,7 @@
 
 PASS  版本号: 3.46.1
 PASS  journal_mode=WAL: wal
-PASS  FTS5 中文检索: 探路者智能体协作网络
+PASS  FTS5 中文检索: 中文全文检索测试数据
 PASS  FTS5 trigram: 1
 PASS  FTS4: 1
 PASS  FTS3: 1
