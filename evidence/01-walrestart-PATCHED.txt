@@ -1,0 +1,19 @@
+# 3.46.1 + 56-WAL-reset.patch — test/walrestart.test
+# rc=0
+
+walrestart-1.0... Ok
+walrestart-1.1... Ok
+walrestart-1.3... Ok
+walrestart-1.3... Ok
+walrestart-1.4... Ok
+walrestart-1.5... Ok
+SQLite 2024-08-13 09:16:08 c9c2ab54ba1f5f46360f1b4f35d849cd3f080e6fc2b6c60e91b16c63f69aalt1
+0 errors out of 7 tests on Young-notebook Linux 64-bit little-endian
+All memory allocations freed - no leaks
+Memory used:          now          0  max     274016  max-size      48000
+Allocation count:     now          0  max        210
+Page-cache used:      now          0  max          0  max-size       1296
+Page-cache overflow:  now          0  max      74000
+Maximum memory usage: 274016 bytes
+Current memory usage: 0 bytes
+Number of malloc()  : -1 calls

@@ -1,0 +1,21 @@
+# 3.46.1 + 补丁 — 功能回归 (ctypes 直连 .so)
+# rc=0
+
+PASS  版本号: 3.46.1
+PASS  journal_mode=WAL: wal
+PASS  FTS5 中文检索: 探路者智能体协作网络
+PASS  FTS5 trigram: 1
+PASS  FTS4: 1
+PASS  FTS3: 1
+PASS  JSON1: 42
+PASS  RTREE: 2
+PASS  MATH: 12.0/1024.0
+PASS  窗口函数: 6
+PASS  CTE: 55
+PASS  UPDATE/DELETE LIMIT: 7
+PASS  BLOB 1MB: 1048576
+PASS  COLUMN_METADATA 宏: compiled-in (静态)
+PASS  WAL 并发读写 + integrity: 4写/4读线程 × 480 事务, 行数=480, integrity_check=ok
+PASS  最终 integrity_check: ok
+
+16/16 passed
