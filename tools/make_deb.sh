@@ -40,7 +40,7 @@ Version: $PKG_VER-1
 Section: libs
 Priority: optional
 Architecture: $ARCH
-Maintainer: Song Yang <124426051@qq.com>
+Maintainer: pzmmy <124426051@qq.com>
 Description: Newer SQLite shared library for UOS/Deepin on ARM64
  Ships SQLite $PKG_VER into /usr/local/lib to work around the WAL-reset
  data-corruption bug present in the distribution's SQLite 3.39.3
