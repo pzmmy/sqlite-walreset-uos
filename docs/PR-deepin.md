@@ -1,5 +1,7 @@
 # PR: 补齐 SQLite WAL-reset 修复（3.46.1）
 
+**已提交**：<https://github.com/deepin-community/sqlite3/pull/14>
+
 ## 标题
 
 ```
